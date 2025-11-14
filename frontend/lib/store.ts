@@ -1,0 +1,20 @@
+import { configureStore } from '@reduxjs/toolkit'
+import authReducer from '@/lib/features/auth/authSlice'
+import { blogApi } from './services/blogApi'
+import { authApi } from './services/authApi';
+
+export const makeStore = () => {
+  return configureStore({
+    reducer: {
+       auth: authReducer,
+      [authApi.reducerPath]: authApi.reducer,
+      [blogApi.reducerPath]: blogApi.reducer,
+  },
+  middleware: (getDefaultMiddleware) =>
+    getDefaultMiddleware().concat(authApi.middleware, blogApi.middleware),
+});
+}
+
+export type AppStore = ReturnType<typeof makeStore>
+export type RootState = ReturnType<AppStore['getState']>
+export type AppDispatch = AppStore['dispatch']

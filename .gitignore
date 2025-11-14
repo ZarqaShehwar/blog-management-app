@@ -1,0 +1,10 @@
+# Node.js stuff (backend + frontend)
+node_modules/
+.env
+
+# Build outputs
+dist/
+build/
+
+# Logs
+*.log
