@@ -1,8 +1,6 @@
 
 
-````md
-# 📝 Blog Management App
-
+### Blog Management App
 ## Project Purpose
 A full-stack blog management application that allows users to create, edit, and delete their own blog posts, while public users can view all blogs. It provides secure authentication, a rich text editor for blog content, and seamless image uploads, making blog management easy and user-friendly.
 
@@ -10,11 +8,10 @@ A full-stack blog management application that allows users to create, edit, and 
 
 ## 🌐 Live Demo
 
-- **Frontend (Vercel):** [https://your-frontend-url](https://your-frontend-url)  
-- **Backend API (Render):** [https://your-backend-url](https://your-backend-url)
-
----
-
+- **Frontend (Vercel):** https://vercel.com/zarqashehwars-projects/blogapp
+- **Backend API (Render):** https://vercel.com/zarqashehwars-projects/blog-backend/
+## Production Authentication Limitation (Cookie + Middleware)::::
+Next.js middleware can only access authentication cookies in production when both the frontend and backend are running under the same top-level domain. If they are on different domains, cookies cannot be shared, and middleware-based authentication will not work correctly
 ## 🛠️ Technology Stack
 
 **Frontend**
@@ -45,9 +42,7 @@ This project is a **Monolithic full-stack application** following the **MVC (Mod
 - **Routes:** Map HTTP requests to controller functions  
 - **Middleware:** Protect routes using JWT, handle errors globally, manage file uploads  
 - **Frontend:** Next.js app with auth-protected routes, rich text editor, and responsive UI  
-
----
-
+````md
 ## ⚙️ Getting Started / Setup Instructions
 
 ### 1. Clone the repository
