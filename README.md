@@ -95,7 +95,7 @@ NEXT_PUBLIC_API_URL=https://your-backend-url
 
 ```bash
 cd backend
-npm run dev
+npm run start:dev
 ```
 
 **Frontend**
@@ -201,10 +201,6 @@ curl -X GET https://your-backend-url/api/v1/blogs
 
 ---
 
-## 🖼 Screenshots
-
-*(Add app screenshots here: homepage, blog listing, blog detail, create/edit blog page)*
-
 ---
 
 ## 👩‍💻 Author
@@ -214,9 +210,6 @@ Full Stack Developer (MERN / Next.js / Node.js)
 
 ---
 
-## 📄 License
-
-MIT License © 2025
 
 ```
 
