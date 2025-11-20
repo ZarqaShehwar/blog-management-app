@@ -7,11 +7,7 @@ A full-stack blog management application that allows users to create, edit, and 
 ---
 
 ## 🌐 Live Demo
-
-- **Frontend (Vercel):** https://vercel.com/zarqashehwars-projects/blogapp
-- **Backend API (Vercel):** https://vercel.com/zarqashehwars-projects/blog-backend/
-## Production Authentication Limitation (Cookie + Middleware)::::
-Next.js middleware can only access authentication cookies in production when both the frontend and backend are running under the same top-level domain. If they are on different domains, cookies cannot be shared, and middleware-based authentication will not work correctly
+https://myblogapp.tech/
 ## 🛠️ Technology Stack
 
 **Frontend**
